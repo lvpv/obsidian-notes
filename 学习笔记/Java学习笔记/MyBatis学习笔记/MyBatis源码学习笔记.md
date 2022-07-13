@@ -73,3 +73,12 @@ public class JdbcTest {
 ② 将sql语句抽取到xml配置⽂件中 
 
 ③ 使⽤反射、内省等底层技术，⾃动将实体与表进⾏属性与字段的⾃动映射
+
+##  1.3 自定义框架设计
+#### 使用端：
+```text
+提供核⼼配置⽂件： 
+	sqlMapConfig.xml : 存放数据源信息，引⼊mapper.xml 
+	Mapper.xml : sql语句的配置⽂件信息
+```
+
